@@ -43,10 +43,7 @@
 </head>
 
 <body>
-
-
-
-    <nav class=" font-lato py-5 px-8 md:px-16 lg:px-24 bg-[#eaf1f2]">
+    <nav class="lg:sticky lg:top-0 font-lato py-2 px-5 md:px-16 lg:px-24 bg-white ">
         <div class="flex  lg:items-center lg:justify-between justify-between items-center ">
             <div>
                 <h1 class="text-3xl font-bold text-black">Faisal.dev</h1>
@@ -63,20 +60,20 @@
                         </label>
                         <ul tabindex="0"
                             class="menu menu-xl dropdown-content  z-[1] shadow bg-base-100 rounded-lg  font-bold text-black  ">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">PROJECTS</a></li>
-                            <li><a href="">CONTACT</a></li>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#projects">PROJECTS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>
 
                 </div>
                 <div class="hidden lg:flex mb-6">
                     <ul class="menu menu-horizontal text-black ">
-                        <li><a class="text-xl pl-0">HOME</a></li>
-                        <li><a class="text-xl pl-0">ABOUT</a></li>
-                        <li><a class="text-xl pl-0">PROJECTS</a></li>
-                        <li><a class="text-xl pl-0">CONTACT</a></li>
+                        <li><a class="text-xl pl-0" href="#home">HOME</a></li>
+                        <li><a class="text-xl pl-0" href="#about">ABOUT</a></li>
+                        <li><a class="text-xl pl-0" href="#projects">PROJECTS</a></li>
+                        <li><a class="text-xl pl-0" href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -86,50 +83,55 @@
     </nav>
 
     <!-- header section -->
-    <header class="  bg-cyan-200 pt-10">
+    <header id="home" class="  bg-cyan-200 lg:py-20">
         <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="flex flex-col lg:flex-row-reverse items-center">
                 <img class="w-80 h-80 rounded-[50%] bg-white p-1" src="images/faisal.jpg"
                     class=" rounded-lg shadow-2xl" />
                 <div>
-                    <h1 class="text-5xl font-bold">Front-End React Developer</h1>
-                    <p class="py-6">Hi, I'm Faisal. A passionate Front-end React Developer based in Germany. 📍</p>
-                    <div class="flex mb-10">
+                    <h1 class="text-5xl font-bold text-center lg:text-start">Front-End React Developer</h1>
+                    <p class="py-6 text-center lg:text-start">Hi, I'm Faisal. A passionate Front-end React Developer
+                        based in Germany.
+                        📍</p>
+                    <div class="flex mb-10 justify-center lg:justify-start ">
                         <div><a href="https://www.linkedin.com/in/faisal-ahmed-395a43284/ target=" target="_blank"><i
                                     class="fa-brands fa-linkedin mr-5 fa-2xl"></i></a></div>
                         <div><a href="https://github.com/devmashum" target="_blank"><i
                                     class="fa-brands fa-github fa-2xl"></i></a></div>
                     </div>
 
-                    <div class="flex justify-start items-center ">
+                    <div class="lg:flex grid lg:items-center ">
                         <div>
-                            <h3 class="text-lg mr-10">Tech Stack |
+                            <h3 class="text-lg lg:mr-10 items-center text-center underline font-bold mb-5 ">Tech
+                                Stack
                             </h3>
                         </div>
+                        <div class="grid grid-cols-5 ml-5 mb-5">
 
-                        <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 " src="images/html-5.png"
-                                alt="">
-                        </div>
-                        <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 " src="images/css-3.png"
-                                alt="">
-                        </div>
-                        <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 " src="images/node-js.png"
-                                alt="">
-                        </div>
-                        <div class="mr-5 "><img class="w-10 h-10 rounded-[50%] bg-white p-2 "
-                                src="images/Tailwind_CSS_Logo.svg.png" alt="">
-                        </div>
-                        <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 "
-                                src="images/wordpress.png" alt="">
+                            <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 "
+                                    src="images/html-5.png" alt="">
+                            </div>
+                            <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 "
+                                    src="images/css-3.png" alt="">
+                            </div>
+                            <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 "
+                                    src="images/node-js.png" alt="">
+                            </div>
+                            <div class="mr-5 "><img class="w-10 h-10 rounded-[50%] bg-white p-2 "
+                                    src="images/Tailwind_CSS_Logo.svg.png" alt="">
+                            </div>
+                            <div class="mr-5 "><img class="w-10 h-auto rounded-[50%] bg-white p-2 "
+                                    src="images/wordpress.png" alt="">
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
     </header>
 
-    <section class="max-w-screen-2xl mx-auto bg-white lg:p-20 ">
+    <section id="about" class="max-w-screen-2xl mx-auto bg-white lg:p-20 ">
 
         <div class="max-w-screen-lg lg:flex flex flex-col lg:flex-row text-start  mx-auto items-center">
             <div class="w-[100%] mr-10 "> <img src="images/team3.png"
@@ -159,7 +161,7 @@
 
 
 
-    <main class="max-w-screen-2xl mx-auto bg-white lg:p-20 ">
+    <main id="projects" class="max-w-screen-2xl mx-auto bg-white lg:p-20 ">
         <div class="max-w-screen-lg mx-auto lg:ml-40 ml-5">
             <p class="text-lg text-cyan-500 font-bold">PORTFOLIO</p>
             <h3 class="text-3xl font-bold">Each project is a unique piece of development 🧩</h3>
@@ -189,36 +191,37 @@
         </div>
 
     </main>
-    <section class="max-w-screen-2xl mx-auto bg-white lg:p-20">
+    <!-- contact Section -->
+    <section id="contact" class="max-w-screen-2xl mx-auto bg-white lg:p-20">
 
-        <!-- contact Section -->
+
         <div class="lg:pl-20">
             <h3 class="lg:pl-20 text-lg text-cyan-500 font-bold pl-5">CONTACT</h3>
             <h2 class="lg:pl-20 text-3xl font-bold mb-10 pl-5 ">Don't be shy! Hit me up! 👇</h2>
 
-
-            <div class="flex justify-around">
-                <div class="flex mr-5  pl-1 flex-col lg:flex-row">
-                    <div class="mr-5 "><img class="lg:w-20 lg:h-auto w-10 h-auto  rounded-[50%] bg-white p-2 "
+            <div class=" flex lg:flex-row  mb-10 lg:ml-12">
+                <div class="lg:flex lg:w-[30%] w-[50%]lg:justify-start items-center ml-5 ">
+                    <div class=" "><img class="lg:w-20 lg:h-auto w-10 h-auto  rounded-[50%] bg-white lg:mr-10 "
                             src="images/map.png" alt="">
                     </div>
-                    <div class="lg:pl-20">
-                        <h3 class="lg:text-2xl lg:font-bold text-lg font-bold w-[50%]">Location</h3>
+                    <div class="pr-5">
+                        <h3 class="">Location</h3>
                         <p class="lg:text-xl">Brandenburg, Germany</p>
                     </div>
                 </div>
-                <div class="flex mr-5  p-1 flex-col lg:flex-row">
-                    <div class="mr-5 "><img class="lg:w-20 lg:h-auto w-10 h-auto rounded-[50%] bg-white p-2"
+                <div class="lg:w-[70%] w-[50%] lg:flex lg:justify-start items-center">
+                    <div class=" "><img class="lg:w-20 lg:h-auto w-10 h-auto rounded-[50%] bg-white lg:mr-10"
                             src="images/gmail.png" alt="">
                     </div>
-                    <div class="lg:pl-20 ">
-                        <h3 class="lg:text-2xl lg:font-bold text-lg font-bold">Mail</h3>
-                        <p class="lg:text-xl ">faisal.mashum@gmail.com
+                    <div class=" ">
+                        <h3 class="">Mail</h3>
+                        <p class=" lg:text-xl">faisal.mashum@gmail.com
                         </p>
                     </div>
                 </div>
 
             </div>
+            <!-- new -->
 
         </div>
 
